@@ -238,3 +238,77 @@ main .container .left .profile {
 .left .notification-popup small {
   display: block;
 }
+/* middle */
+.middle .stories {
+  display: flex;
+  justify-content: space-between;
+  height: 12rem;
+  gap: 0.5rem;
+}
+.middle .stories .story {
+  padding: var(--card-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 0.75rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.middle .stories .story:nth-child(1) {
+  background: url(images/story-1.jpg) no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(2) {
+  background: url(images/story-2.jpg) no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(3) {
+  background: url(images/story-3.jpg) no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(4) {
+  background: url(images/story-4.jpg) no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(5) {
+  background: url(images/story-5.jpg) no-repeat center center/cover;
+}
+.middle .stories .story:nth-child(6) {
+  background: url(images/story-6.jpg) no-repeat center center/cover;
+}
+.middle .stories .story::before {
+  background: linear-gradient(transparent, rgb(0, 0, 0, 0.8));
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+}
+.middle .stories .story .name {
+  z-index: 2;
+}
+.middle .story .profile-photo{
+    width: 2rem;
+    height: 2rem;
+    align-self: start;
+    border: 3px solid var(--color-primary);
+}
+/* create post */
+.middle .create-post{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    background: var(--color-white);
+    padding:0.4rem var(--card-padding);
+    border-radius: var(--border-radius);
+}
+.middle .create-post input[type="text"]{
+    width: 100%;
+    justify-self: start;
+    padding-left: 1rem;
+    background: transparent;
+    color:var(--color-danger);
+    margin-right: 1rem;
+}
