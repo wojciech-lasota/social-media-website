@@ -38,7 +38,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--color-dark);
   background-color: var(--color-light);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .container {
   width: 80%;
