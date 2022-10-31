@@ -1,2 +1,3 @@
-# beginner-web-development-projects
-my way through HTML CSS &amp; JavaScript course https://www.youtube.com/c/EGATORTUTORIALS
+# live preview
+
+https://wojciech-lasota.github.io/beginner-web-development-projects/social_media_website
