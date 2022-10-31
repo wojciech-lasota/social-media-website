@@ -129,6 +129,7 @@ main .container .left {
   position: sticky;
   height: max-content;
   top: var(--sticky-top-left);
+  width: fit-content;
 }
 main .container .left .profile {
   padding: var(--card-padding);
